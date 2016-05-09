@@ -32,7 +32,7 @@
             border-bottom: 1px solid #292C33;
             cursor: pointer;
             transition: background-color .1s;
-            
+
             &:hover {
                 background-color: rgba(255, 255, 255, 0.03);
             }
@@ -49,6 +49,7 @@
         .name {
             display: inline-block;
             margin: 0 0 0 15px;
+            max-width: 120px;
         }
     }
 </style>
